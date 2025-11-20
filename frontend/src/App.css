@@ -1,0 +1,30 @@
+/* Global reset (biztonságos és egyszerű) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Alap body stílus */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+  color: #000;           /* <<< FONTOS: sötét szöveg */
+  padding: 20px;
+}
+
+/* Alap link stílus */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Gyökér container */
+#root {
+  max-width: 900px;
+  margin: 0 auto;
+}
